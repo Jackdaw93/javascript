@@ -1,6 +1,6 @@
 function panggilPerulangan() {
   var dataKota = ['Jakarta','Balikpapan','Medan']
-  /* Perulangan FOR
+  /* //Perulangan FOR
   for (var i =0; i < dataKota.length; i++)
   {
     console.log(dataKota[i]);
@@ -8,14 +8,18 @@ function panggilPerulangan() {
     console.log(dataKota);
   }
   */
-  /*Perulangan ForEach
-  dataKota.forEach((item, index, array) => {
+
+  /* //Perulangan ForEach
+  dataKota.forEach((item, index, array) =>
+  {
     console.log(item);
     console.log(index);
     console.log(array);
   });
   */
-  dataKota.map((item, index, array) => {
+
+  dataKota.map((item, index, array) =>
+  {
     console.log(item);
     console.log(index);
     console.log(array);
