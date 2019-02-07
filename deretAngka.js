@@ -5,10 +5,12 @@ function deretAngka(n) {
       hasilDeretAngka += 'NIO '
     } else if (i % 5 === 0) {
       hasilDeretAngka += 'MIC '
-    } else {
+    } else if (i === 3 && i === 5) {
+      hasilDeretAngka += 'NIOMIC'
+    }else {
       hasilDeretAngka += i+' '
     }
-    }
+  }
   return hasilDeretAngka;
 }
 console.log(deretAngka(10));
