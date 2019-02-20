@@ -1,3 +1,12 @@
-var mesagge = "Hello Girl's";
+// console.log("Menuliskan Code JavaScript di Browser Secara Eksternal")
 
-console.log(message)
+function panggilJavaScript() {
+  console.log("Menuliskan Code JavaScript di Browser Secara Eksterna");
+}
+
+function panggilJS() {
+  console.log("Panggil Fungsi Ke 2 Eksternal");
+}
+
+panggilJavaScript()
+panggilJS()
